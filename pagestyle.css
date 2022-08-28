@@ -1,0 +1,30 @@
+.statement{
+    text-align: center;
+    margin-top: 10%;
+    color: white;
+    font-size: 60px;
+    
+}
+
+.bullet-statement{
+  
+  margin-right: 50px;
+  list-style: none;
+  background: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 50%);
+  background: radial-gradient(circle at 17% 98%, #6cdf55,#38b2c7);
+  font-size: 20px;
+}
+
+li {
+    float: right;
+    margin: 50px;
+    list-style: none;
+  }
+
+ul{
+  justify-content: center;
+  display: flex;
+}
