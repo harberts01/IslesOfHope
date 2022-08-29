@@ -1,18 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>
-        body {
-            background-image: url('BG_Header-300x163.jpg');
-            min-height: 100%;
-            min-width: 1024px;
-            width: 100%;
-            height: auto;
-	        position: fixed;
-            top: 0;
-            left: 0;
-        }
-    </style>
+    
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,7 +15,7 @@
         <nav class="navbar">
             <a class="navbar-brand" href="/">
                 <div class="logo-image">
-                      <img src="original-3.png" class="img-fluid">
+                      <img src="images/original-3.png" class="img-fluid">
                 </div>
             </a>
     </header>
@@ -61,13 +50,23 @@
             <li><a class="bullet-statement">Transferability</a></li>
             
     </div>
-
-
-
-
-
-
-
+    <div class="images-slideshow">
+        <div class="imageSlides fade">
+            <img src="images/slider/IOH_01.png">
+        </div>
+        <div class="imageSlides fade">
+            <img src="images/slider/IOH_02.png">
+        </div>
+        <div class="imageSlides fade">
+            <img src="images/Slider/IOH_03.png">
+        </div>
+        <div class="imageSlides fade">
+            <img src="Images/slider/IOH_04.png">
+        </div>
+    
+        <a class="slider-btn previous" onclick="setSlides(-1)"><</a>
+        <a class="slider-btn next" onclick="setSlides(1)">></a>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
