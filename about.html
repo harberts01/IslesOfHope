@@ -11,54 +11,59 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="navstyle.css">
-        <link rel="stylesheet" href="pagestyle.css">
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
         <title>Isles of Hope International</title>
-        <header>
-            <nav class="navbar">
-                <a class="navbar-brand" href="/">
-                    <div class="logo-image">
-                          <img src="images/original-3.png" class="img-fluid">
-                    </div>
-                </a>
-        </header>
+        
     </head>
     <body>
     
-        <div class="nav-container">
-                
-                <h1 id="navbar-logo">Isles of Hope International</h1>
-                     <div class="menu-toggle" id="mobile-menu">
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                    </div>
-    
-                <ul class="nav-menu">
-                    <!-- <input type="text" placeholder="Search.."> -->
-                    <li><a href="index.html" class="nav-links"><b>Home</b></a></li>
-                    <li><a href="about.html" class="nav-links"><b>About Us</b></a></li>
-                    <li><a href="#" class="nav-links"><b>Newsletters</b></a></li>
-                    <li><a href="#" class="nav-links"><b>Contact Us</b></a></li>
-                    <li><a href="#" class="nav-links nav-links-btn"><b>Donate</b></a></li>
-                    
-                </ul>
-            </nav>
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+            <img src="images/original-3.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">Isles of Hope International</a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Newsletters</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link">Donate</a>
+                </li>
+            </ul>
+            </div>
         </div>
+        </nav>
 
 <img class="missionstatement" src="Images/Mission_Header.png">
-
-<p class="centertext">Isles of Hope International is a Christian non-profit organization designed to help mostly poor women in countries around the world. The organization will provide support in the areas of:
-
-    Financial assistance (micro-loans) to start or expand a small business to help with the practical needs of women and their families
+<div class="container">
+    <p class="text-start fs-3"><strong>Isles of Hope International</strong> is a Christian non-profit organization designed to help mostly poor women in countries around the world. The organization will provide support in the areas of:
+    <ul>
+        <li>Financial assistance (micro-loans) to start or expand a small business to help with the practical needs of women and their families</li>
+        <li>Spiritual teaching and training of all women we come in contact with</li>
+    </ul>
+    
     <br>
-    Spiritual teaching and training of all women we come in contact with
+    
     <br>
     We will do our best to equip women to start small businesses to help financially supplement the ministries in the country, so as not to be entirely dependent on constant support from this organization.
     Isles of Hope International will work to establish Elizabeth Houses, which are places where women can come to be ministered to, conduct Bible studies, and train for skills such as sewing or other business-related activities. These will also be places where micro-loans can be granted after an established business plan is submitted and reviewed. Church services can also be held here. An Elizabeth House is a safe place for women to come to, open their hearts, and not be judged; a place where they will see and feel the love of Christ and be empowered to become disciples so they can go out and make positive changes in their communities and throughout the country.
     We will work with indigenous Christian women to administer and oversee the Elizabeth Houses. These women are more knowledgeable of their country, culture, and language than foreigners are. We seek and look for women in these leadership roles who have biblical knowledge and counseling experience, as there are many women who come to the houses that have been traumatized by abuse, abandonment, and human trafficking.
-    First and foremost, this is the Lord’s ministry, not ours as a board. We only wish to do His will, following the commands of Scripture to help the needy and carry out the Great Commission.</p>
-
-    
+    First and foremost, this is the Lord&#39s ministry, not ours as a board. We only wish to do His will, following the commands of Scripture to help the needy and carry out the Great Commission.</p>
+</div>
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>   
 </body>
 </html>
