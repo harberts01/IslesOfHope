@@ -1,4 +1,6 @@
-
+nav.navbar li a {
+    color: white;
+  }
 @media screen and (max-width: 992px) {
     
     #desktopLogo {
@@ -7,6 +9,10 @@
 
     #desktopWidth2 {
         display: none;
+    }
+
+    .navbar-toggler {
+        border: none;
     }
  } 
 
@@ -18,6 +24,10 @@
 
     #mobileWidth2 {
         display: none;
+    }
+
+    .navbar-toggler {
+        border: none;
     }
  }
 
