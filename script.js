@@ -40,7 +40,7 @@ const verseID = VERSES[verseIndex];
 getResults(verseID).then((data) => {
     const passage = data.passages[0];
     verseRef.innerHTML = `<span><i>${passage.reference}</i></span>`;
-    verse.innerHTML = `<div class="text eb-container">${passage.content}</div>`;
+    verse.innerHTML = `<span>${passage.content}</span>`;
   });
 
   function getResults(verseID) {
