@@ -1,10 +1,10 @@
-const menu = document.querySelector('#mobile-menu');
-const menuLinks = document.querySelector('.nav-menu');
+// const menu = document.querySelector('#mobile-menu');
+// const menuLinks = document.querySelector('.nav-menu');
 
-menu.addEventListener('click', function(){
-    menu.classList.toggle('is-active');
-    menuLinks.classList.toggle('active');
-})
+// menu.addEventListener('click', function(){
+//     menu.classList.toggle('is-active');
+//     menuLinks.classList.toggle('active');
+// })
 
 const API_KEY = `37a25eebfb17e7d9a32b530062c91228`; // Fill in with your own key.
 const verse = document.querySelector(`#verse-content`);
