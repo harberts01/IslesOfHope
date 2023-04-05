@@ -7,8 +7,8 @@
 // })
 
 const API_KEY = `37a25eebfb17e7d9a32b530062c91228`; // Fill in with your own key.
-const verse = document.querySelector(`#verse-content`);
-const verseRef = document.querySelector(`#verse`);
+const verse = document.querySelector(`.verse-content`);
+const verseRef = document.querySelector(`.verse`);
 
 const BIBLE_ID = `06125adad2d5898a-01`;
 const VERSES = [
